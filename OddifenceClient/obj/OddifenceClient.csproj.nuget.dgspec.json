@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\WisnextTime\\OddifenceRe\\OddifenceClient\\OddifenceClient.csproj": {}
+  },
+  "projects": {
+    "D:\\WisnextTime\\OddifenceRe\\OddifenceClient\\OddifenceClient.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WisnextTime\\OddifenceRe\\OddifenceClient\\OddifenceClient.csproj",
+        "projectName": "OddifenceClient",
+        "projectPath": "D:\\WisnextTime\\OddifenceRe\\OddifenceClient\\OddifenceClient.csproj",
+        "packagesPath": "C:\\Users\\z163z\\.nuget\\packages\\",
+        "outputPath": "D:\\WisnextTime\\OddifenceRe\\OddifenceClient\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\z163z\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "D:\\WisnextTime\\OddifenceRe\\OddifenceCore\\OddifenceCore.csproj": {
+                "projectPath": "D:\\WisnextTime\\OddifenceRe\\OddifenceCore\\OddifenceCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "MonoGame.Content.Builder.Task": {
+              "target": "Package",
+              "version": "[3.8.5-develop.1, )"
+            },
+            "MonoGame.Framework.DesktopGL": {
+              "target": "Package",
+              "version": "[3.8.5-develop.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\WisnextTime\\OddifenceRe\\OddifenceCore\\OddifenceCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\WisnextTime\\OddifenceRe\\OddifenceCore\\OddifenceCore.csproj",
+        "projectName": "OddifenceCore",
+        "projectPath": "D:\\WisnextTime\\OddifenceRe\\OddifenceCore\\OddifenceCore.csproj",
+        "packagesPath": "C:\\Users\\z163z\\.nuget\\packages\\",
+        "outputPath": "D:\\WisnextTime\\OddifenceRe\\OddifenceCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\z163z\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Lib.Harmony": {
+              "target": "Package",
+              "version": "[2.3.6, )"
+            },
+            "Tomlyn": {
+              "target": "Package",
+              "version": "[0.19.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

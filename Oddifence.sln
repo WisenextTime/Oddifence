@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddifenceClient", "OddifenceClient\OddifenceClient.csproj", "{AC33BC6E-C75D-4AF3-9D9D-6B5876E24196}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddifenceCore", "OddifenceCore\OddifenceCore.csproj", "{0CC1A6F1-C5A8-4AE7-81D7-0D3FEBFC6757}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oddifence", "Oddifence\Oddifence.csproj", "{35D1CB6D-8866-4411-ABD3-155BADC243A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddifenceMapEditor", "OddifenceMapEditor\OddifenceMapEditor.csproj", "{AD339202-C7E7-4DD8-A47E-B9B4C6F7E6F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC33BC6E-C75D-4AF3-9D9D-6B5876E24196}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC33BC6E-C75D-4AF3-9D9D-6B5876E24196}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC33BC6E-C75D-4AF3-9D9D-6B5876E24196}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC33BC6E-C75D-4AF3-9D9D-6B5876E24196}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CC1A6F1-C5A8-4AE7-81D7-0D3FEBFC6757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CC1A6F1-C5A8-4AE7-81D7-0D3FEBFC6757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CC1A6F1-C5A8-4AE7-81D7-0D3FEBFC6757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CC1A6F1-C5A8-4AE7-81D7-0D3FEBFC6757}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35D1CB6D-8866-4411-ABD3-155BADC243A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35D1CB6D-8866-4411-ABD3-155BADC243A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35D1CB6D-8866-4411-ABD3-155BADC243A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35D1CB6D-8866-4411-ABD3-155BADC243A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD339202-C7E7-4DD8-A47E-B9B4C6F7E6F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD339202-C7E7-4DD8-A47E-B9B4C6F7E6F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD339202-C7E7-4DD8-A47E-B9B4C6F7E6F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD339202-C7E7-4DD8-A47E-B9B4C6F7E6F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

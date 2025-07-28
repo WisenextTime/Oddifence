@@ -1,0 +1,15 @@
+D:\WisnextTime\OddifenceRe\Oddifence\bin\Debug\net9.0\Oddifence.deps.json
+D:\WisnextTime\OddifenceRe\Oddifence\bin\Debug\net9.0\Oddifence.dll
+D:\WisnextTime\OddifenceRe\Oddifence\bin\Debug\net9.0\Oddifence.pdb
+D:\WisnextTime\OddifenceRe\Oddifence\bin\Debug\net9.0\OddifenceCore.dll
+D:\WisnextTime\OddifenceRe\Oddifence\bin\Debug\net9.0\OddifenceCore.pdb
+D:\WisnextTime\OddifenceRe\Oddifence\obj\Debug\net9.0\Oddifence.csproj.AssemblyReference.cache
+D:\WisnextTime\OddifenceRe\Oddifence\obj\Debug\net9.0\Oddifence.GeneratedMSBuildEditorConfig.editorconfig
+D:\WisnextTime\OddifenceRe\Oddifence\obj\Debug\net9.0\Oddifence.AssemblyInfoInputs.cache
+D:\WisnextTime\OddifenceRe\Oddifence\obj\Debug\net9.0\Oddifence.AssemblyInfo.cs
+D:\WisnextTime\OddifenceRe\Oddifence\obj\Debug\net9.0\Oddifence.csproj.CoreCompileInputs.cache
+D:\WisnextTime\OddifenceRe\Oddifence\obj\Debug\net9.0\Oddifence.csproj.Up2Date
+D:\WisnextTime\OddifenceRe\Oddifence\obj\Debug\net9.0\Oddifence.dll
+D:\WisnextTime\OddifenceRe\Oddifence\obj\Debug\net9.0\refint\Oddifence.dll
+D:\WisnextTime\OddifenceRe\Oddifence\obj\Debug\net9.0\Oddifence.pdb
+D:\WisnextTime\OddifenceRe\Oddifence\obj\Debug\net9.0\ref\Oddifence.dll

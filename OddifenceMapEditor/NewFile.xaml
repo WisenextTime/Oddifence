@@ -1,0 +1,62 @@
+﻿<Window x:Class="OddifenceMapEditor.NewFile"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:OddifenceMapEditor"
+        mc:Ignorable="d"
+        Title="New map..." Height="450" Width="800"
+        xmlns:ui="http://schemas.modernwpf.com/2019"
+        ui:WindowHelper.UseModernWindowStyle="True"
+        ui:ThemeManager.RequestedTheme="Dark">
+    <StackPanel Margin="30,10,20,15">
+        <Grid DockPanel.Dock="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Label Grid.Row="0" Grid.Column="0" Content="Name: "/>
+            <TextBox Grid.Row="0" Grid.Column="1" x:Name="MapName" Margin="0,0,0,10"/>
+            <Label Grid.Row="1" Grid.Column="0" Content="Description: "/>
+            <TextBox Grid.Row="1" Grid.Column="1"
+                     AcceptsReturn="True" TextWrapping="Wrap" VerticalScrollBarVisibility="Auto" Height="100" Margin="0,0,0,10"
+                     x:Name="MapDes"/>
+            <Label Grid.Row="2" Grid.Column="0" Content="Size" Margin="0,0,0,10"/>
+            <Label Grid.Row="3" Grid.Column="0" Content="X: "/>
+            <ui:NumberBox
+                Grid.Row="3" Grid.Column="1" x:Name="SizeX"
+                Minimum="1"
+                Maximum="1024"
+                Value="16"
+                SpinButtonPlacementMode="Inline"
+                Margin="0,0,0,10"/>
+            <Label Grid.Row="4" Grid.Column="0" Content="Y: "/>        
+            <ui:NumberBox
+                Grid.Row="4" Grid.Column="1" x:Name="SizeY"
+                Minimum="1"
+                Maximum="1024"
+                Value="16"
+                SpinButtonPlacementMode="Inline"
+                Margin="0,0,0,10"/>
+            
+        </Grid>
+        <Label Foreground="IndianRed"
+               Content="{Binding ErrorInfo,UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,10"/>
+        <Grid DockPanel.Dock="Bottom" HorizontalAlignment="Stretch">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Content="Cancel" Click="ClickCancel"/>
+            <Button Grid.Column="1" Content="OK" Click="ClickOk" HorizontalAlignment="Right"/>
+        </Grid>
+    </StackPanel>
+</Window>

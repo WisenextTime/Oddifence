@@ -6,8 +6,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddifenceCore", "OddifenceC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oddifence", "Oddifence\Oddifence.csproj", "{35D1CB6D-8866-4411-ABD3-155BADC243A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddifenceMapEditor", "OddifenceMapEditor\OddifenceMapEditor.csproj", "{AD339202-C7E7-4DD8-A47E-B9B4C6F7E6F0}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,9 +24,5 @@ Global
 		{35D1CB6D-8866-4411-ABD3-155BADC243A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35D1CB6D-8866-4411-ABD3-155BADC243A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35D1CB6D-8866-4411-ABD3-155BADC243A1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AD339202-C7E7-4DD8-A47E-B9B4C6F7E6F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AD339202-C7E7-4DD8-A47E-B9B4C6F7E6F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AD339202-C7E7-4DD8-A47E-B9B4C6F7E6F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AD339202-C7E7-4DD8-A47E-B9B4C6F7E6F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

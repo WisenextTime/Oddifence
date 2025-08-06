@@ -10,3 +10,4 @@ D:\WisnextTime\OddifenceRe\OddifenceCore\obj\Debug\net9.0\OddifenceCore.dll
 D:\WisnextTime\OddifenceRe\OddifenceCore\obj\Debug\net9.0\refint\OddifenceCore.dll
 D:\WisnextTime\OddifenceRe\OddifenceCore\obj\Debug\net9.0\OddifenceCore.pdb
 D:\WisnextTime\OddifenceRe\OddifenceCore\obj\Debug\net9.0\ref\OddifenceCore.dll
+D:\WisnextTime\OddifenceRe\OddifenceCore\obj\Debug\net9.0\OddifenceCore.sourcelink.json

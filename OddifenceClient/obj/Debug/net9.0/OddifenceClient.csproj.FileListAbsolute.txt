@@ -7,7 +7,6 @@ D:\WisnextTime\OddifenceRe\OddifenceClient\bin\Debug\net9.0\0Harmony.dll
 D:\WisnextTime\OddifenceRe\OddifenceClient\bin\Debug\net9.0\MonoGame.Framework.dll
 D:\WisnextTime\OddifenceRe\OddifenceClient\bin\Debug\net9.0\NVorbis.dll
 D:\WisnextTime\OddifenceRe\OddifenceClient\bin\Debug\net9.0\System.Text.Json.dll
-D:\WisnextTime\OddifenceRe\OddifenceClient\bin\Debug\net9.0\Tomlyn.dll
 D:\WisnextTime\OddifenceRe\OddifenceClient\bin\Debug\net9.0\runtimes\android-arm\native\libopenal.so
 D:\WisnextTime\OddifenceRe\OddifenceClient\bin\Debug\net9.0\runtimes\android-arm64\native\libopenal.so
 D:\WisnextTime\OddifenceRe\OddifenceClient\bin\Debug\net9.0\runtimes\android-x64\native\libopenal.so
@@ -34,3 +33,5 @@ D:\WisnextTime\OddifenceRe\OddifenceClient\obj\Debug\net9.0\refint\OddifenceClie
 D:\WisnextTime\OddifenceRe\OddifenceClient\obj\Debug\net9.0\OddifenceClient.pdb
 D:\WisnextTime\OddifenceRe\OddifenceClient\obj\Debug\net9.0\OddifenceClient.genruntimeconfig.cache
 D:\WisnextTime\OddifenceRe\OddifenceClient\obj\Debug\net9.0\ref\OddifenceClient.dll
+D:\WisnextTime\OddifenceRe\OddifenceClient\bin\Debug\net9.0\Newtonsoft.Json.dll
+D:\WisnextTime\OddifenceRe\OddifenceClient\obj\Debug\net9.0\OddifenceClient.sourcelink.json

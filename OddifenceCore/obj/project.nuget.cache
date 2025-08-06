@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "7J74iBpCZrw=",
+  "dgSpecHash": "gjrLyELd5NU=",
   "success": true,
   "projectFilePath": "D:\\WisnextTime\\OddifenceRe\\OddifenceCore\\OddifenceCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\z163z\\.nuget\\packages\\lib.harmony\\2.3.6\\lib.harmony.2.3.6.nupkg.sha512",
-    "C:\\Users\\z163z\\.nuget\\packages\\system.text.json\\9.0.1\\system.text.json.9.0.1.nupkg.sha512",
-    "C:\\Users\\z163z\\.nuget\\packages\\tomlyn\\0.19.0\\tomlyn.0.19.0.nupkg.sha512"
+    "C:\\Users\\z163z\\.nuget\\packages\\newtonsoft.json\\13.0.4-beta1\\newtonsoft.json.13.0.4-beta1.nupkg.sha512",
+    "C:\\Users\\z163z\\.nuget\\packages\\system.text.json\\9.0.1\\system.text.json.9.0.1.nupkg.sha512"
   ],
   "logs": []
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OddifenceClient")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+30e774bb17727937d01b92b8efd94cf0c661c967")]
 [assembly: System.Reflection.AssemblyProductAttribute("OddifenceClient")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OddifenceClient")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

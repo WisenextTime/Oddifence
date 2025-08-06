@@ -1,4 +1,7 @@
-﻿using OddifenceClient;
+﻿using System;
+using OddifenceCore.IO.File;
+using OddifenceCore.IO.World;
 
-using var game = new Game1();
-game.Run();
+var text = TextFileIO.ReadFromFile(@"d:\map.json");
+var map = MapIO.LoadMap(text);
+Console.WriteLine(MapIO.SaveMap(map));

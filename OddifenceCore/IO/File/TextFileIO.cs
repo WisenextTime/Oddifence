@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using System.Text;
 using OddifenceCore.Utility;
 
@@ -6,20 +7,32 @@ namespace OddifenceCore.IO.File;
 
 public static class TextFileIO
 {
+	/// <summary>
+	/// To write the texts into the target file.
+	/// </summary>
+	/// <param name="text"></param>
+	/// <param name="path">The target file path.</param>
+	/// <exception cref="ArgumentException">The target path is null.</exception>
 	public static void WriteToFile(string text, string path)
 	{
-		if (PathParser.ToStandardPath(path) is null) return;
-		var sourcePath = PathParser.ToStandardPath(path);
-		var file = System.IO.File.Open(path, FileMode.Create);
+		if (path.StandardizingPath() is null) throw new ArgumentException("Path cannot be null.", nameof(path));
+		var sourcePath = path.StandardizingPath();
+		var file = System.IO.File.Open(sourcePath, FileMode.Create);
 		AddText(file, text);
 		file.Flush();
 		file.Dispose();
 	}
 
+	/// <summary>
+	/// To read texts from target file.
+	/// </summary>
+	/// <param name="path">The target file path.</param>
+	/// <exception cref="ArgumentException">The target path is null.</exception>
+	/// <returns>The texts in target file.</returns>
 	public static string ReadFromFile(string path)
 	{
-		if (PathParser.ToStandardPath(path) is null) return null;
-		var sourcePath = PathParser.ToStandardPath(path);
+		if (path.StandardizingPath() is null) throw new ArgumentException("Path cannot be null.", nameof(path));
+		var sourcePath = path.StandardizingPath();
 		var file = System.IO.File.Open(sourcePath, FileMode.Open);
 		var text = ReadText(file);
 		file.Dispose();

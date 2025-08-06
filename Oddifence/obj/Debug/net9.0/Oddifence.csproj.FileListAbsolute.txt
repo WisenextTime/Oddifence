@@ -13,3 +13,4 @@ D:\WisnextTime\OddifenceRe\Oddifence\obj\Debug\net9.0\Oddifence.dll
 D:\WisnextTime\OddifenceRe\Oddifence\obj\Debug\net9.0\refint\Oddifence.dll
 D:\WisnextTime\OddifenceRe\Oddifence\obj\Debug\net9.0\Oddifence.pdb
 D:\WisnextTime\OddifenceRe\Oddifence\obj\Debug\net9.0\ref\Oddifence.dll
+D:\WisnextTime\OddifenceRe\Oddifence\obj\Debug\net9.0\Oddifence.sourcelink.json

@@ -1,25 +1,17 @@
-﻿using System.Text;
+﻿using System.IO;
 
 namespace OddifenceCore.Utility;
 
 public static class PathParser
 {
-	public static string ToStandardPath(string path)
+	/// <summary>
+	/// To standardize the path-name for cross-platform
+	/// </summary>
+	/// <param name="path">The path name.</param>
+	/// <returns>The standardizing path-name.</returns>
+	public static string StandardizingPath(this string path)
 	{
-		var builder = new StringBuilder();
-		var parts = path.Split(':');
-		foreach (var part in parts)
-		{
-			switch (part)
-			{
-				case "user":
-					builder.Append(Vars.DataDirectory);
-					break;
-				default:
-					builder.Append(part);
-					break;
-			}
-		}
-		return builder.ToString();
+		var parts = path.Split('/','\\');
+		return Path.Combine(parts);
 	}
 }

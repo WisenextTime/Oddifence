@@ -5,9 +5,11 @@
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="Lib.Harmony" Version="2.3.6" />
-        <PackageReference Include="Tomlyn" Version="0.19.0" />
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.4-beta1" />
     </ItemGroup>
     <ItemGroup>
+      <Folder Include="Game\" />
       <Folder Include="Service\" />
+      <Folder Include="World\" />
     </ItemGroup>
 </Project>

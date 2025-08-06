@@ -8,8 +8,8 @@ public static class PathParser
 	/// To standardize the path-name for cross-platform
 	/// </summary>
 	/// <param name="path">The path name.</param>
-	/// <returns>The standardizing path-name.</returns>
-	public static string StandardizingPath(this string path)
+	/// <returns>The standardized path-name.</returns>
+	public static string StandardizePath(this string path)
 	{
 		var parts = path.Split('/','\\');
 		return Path.Combine(parts);

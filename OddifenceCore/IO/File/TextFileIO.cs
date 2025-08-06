@@ -15,8 +15,8 @@ public static class TextFileIO
 	/// <exception cref="ArgumentException">The target path is null.</exception>
 	public static void WriteToFile(string text, string path)
 	{
-		if (path.StandardizingPath() is null) throw new ArgumentException("Path cannot be null.", nameof(path));
-		var sourcePath = path.StandardizingPath();
+		if (path.StandardizePath() is null) throw new ArgumentException("Path cannot be null.", nameof(path));
+		var sourcePath = path.StandardizePath();
 		var file = System.IO.File.Open(sourcePath, FileMode.Create);
 		AddText(file, text);
 		file.Flush();
@@ -31,8 +31,8 @@ public static class TextFileIO
 	/// <returns>The texts in target file.</returns>
 	public static string ReadFromFile(string path)
 	{
-		if (path.StandardizingPath() is null) throw new ArgumentException("Path cannot be null.", nameof(path));
-		var sourcePath = path.StandardizingPath();
+		if (path.StandardizePath() is null) throw new ArgumentException("Path cannot be null.", nameof(path));
+		var sourcePath = path.StandardizePath();
 		var file = System.IO.File.Open(sourcePath, FileMode.Open);
 		var text = ReadText(file);
 		file.Dispose();

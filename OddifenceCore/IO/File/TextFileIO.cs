@@ -8,7 +8,7 @@ namespace OddifenceCore.IO.File;
 public static class TextFileIO
 {
 	/// <summary>
-	/// To write the texts into the target file.
+	///     To write the texts into the target file.
 	/// </summary>
 	/// <param name="text"></param>
 	/// <param name="path">The target file path.</param>
@@ -24,7 +24,7 @@ public static class TextFileIO
 	}
 
 	/// <summary>
-	/// To read texts from target file.
+	///     To read texts from target file.
 	/// </summary>
 	/// <param name="path">The target file path.</param>
 	/// <exception cref="ArgumentException">The target path is null.</exception>
@@ -38,6 +38,7 @@ public static class TextFileIO
 		file.Dispose();
 		return text;
 	}
+
 	private static void AddText(FileStream fs, string value)
 	{
 		var info = new UTF8Encoding(true).GetBytes(value);

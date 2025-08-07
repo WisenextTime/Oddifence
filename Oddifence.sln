@@ -1,7 +1,5 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddifenceClient", "OddifenceClient\OddifenceClient.csproj", "{AC33BC6E-C75D-4AF3-9D9D-6B5876E24196}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddifenceCore", "OddifenceCore\OddifenceCore.csproj", "{0CC1A6F1-C5A8-4AE7-81D7-0D3FEBFC6757}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oddifence", "Oddifence\Oddifence.csproj", "{35D1CB6D-8866-4411-ABD3-155BADC243A1}"

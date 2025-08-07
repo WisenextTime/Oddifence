@@ -28,6 +28,14 @@
 [Oo]bj/
 _UpgradeReport_Files/
 [Pp]ackages/
+.idea/
+.run/
+OddifenceCore/obj/
+OddifenceCore/bin/
+OddifenceCore/.config/
+Oddifence/obj/
+Oddifence/bin/
+Oddifence/.config/
 
 Thumbs.db
 Desktop.ini

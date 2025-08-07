@@ -8,6 +8,6 @@
         </PackageReference>
     </ItemGroup>
     <ItemGroup>
-      <ProjectReference Include="..\OddifenceCore\OddifenceCore.csproj" />
+        <ProjectReference Include="..\OddifenceCore\OddifenceCore.csproj"/>
     </ItemGroup>
 </Project>
